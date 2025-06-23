@@ -227,6 +227,11 @@
 <!-- 📩 Footer -->
   <footer>
     <p>&copy; 2025 LinkRide ( Ride Sharing Hub ) - Link with locals, Ride smarter | All rights reserved.</p>
+    <!-- 👁️ View Counter -->
+<div class="view-counter">
+  <span class="view-icon">👁️</span>
+  <span id="viewCount">Loading...</span> views
+</div>
   </footer>
 
   <!-- Registration Pop-up Layout -->
@@ -288,6 +293,19 @@ function handleLogin() {
     alert("Please enter your name to log in.");
   }
 }
+</script>
+
+<!-- 📊 View Counter Logic -->
+<script>
+  fetch('https://api.countapi.xyz/update/linkride.kartik/viewcount/?amount=1')
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('viewCount').textContent = data.value;
+    })
+    .catch(err => {
+      console.error('View count fetch failed:', err);
+      document.getElementById('viewCount').textContent = 'N/A';
+    });
 </script>
 </body>
 </html>
