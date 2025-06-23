@@ -490,10 +490,23 @@ body {
 /* ---------------------------------- */
 footer {
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   background: #222;
   color: #fff;
-  margin-top: 4rem;
+  margin-top: 1rem;
+}
+/* 🔢 View Counter Styles */
+.view-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 1rem;
+  gap: 0.4rem;
+}
+.view-icon {
+  font-size: 1.1rem;
 }
 
 /* ---------------------------------- */
