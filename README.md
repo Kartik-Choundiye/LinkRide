@@ -1,2 +1,2 @@
-# LinkRide [![View Live Site](https://img.shields.io/badge/🚗%20View%20Live%20Site-green?style=for-the-badge)](https://kartikchoundiye.github.io/linkride/)
-Ride Sharing Hub
+# LinkRide - Link With Locals , Ride Smarter
+[![Visit Site](https://img.shields.io/badge/Live%20Demo-%23009800?style=flat&logo=github)](https://kartikchoundiye.github.io/linkride/)
